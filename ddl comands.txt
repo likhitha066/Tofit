@@ -1,0 +1,19 @@
+                                                  DDL COMMANDS
+                         
+ 
+
+                                                 CREATING TABLE 
+
+
+1. create table customer_info(customer_id int, fashion_type varchar(10), discount int, statistics decimal(5,2));
+
+2. alter table customer_info add(purchasing_rate int,);
+
+3. alter table customer_info modify(statistics decimal(3,2));
+
+4. rename table customer_info to customer_data;
+
+5. alter table customer_data drop(discount int);
+
+6. truncate table customer_data;
+
